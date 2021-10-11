@@ -1,0 +1,43 @@
+.faqbox {
+    width: calc(100% );
+    
+    /*background-image: url("https://hacktams-backend.s3.us-east-2.amazonaws.com/images/faq-box-background-closed.png");
+    */
+    background-size:100% 100%;
+    padding: 15px;
+    margin:5px;
+    color: #fff;
+    transition: max-height 0.6s;
+    transition: background-color 0.6s;
+    transition: box-shadow 0.6s;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.question-container{
+    display:flex;
+    background-color: #171717;
+    padding: 0.5rem;
+    align-items:center;
+}
+
+.coloredBox{
+    background-color: rgb(134, 241, 255);
+    width:0.5rem;
+    height:1.5rem;
+    margin-right:1rem;
+}
+
+.faqbox.open {
+    /*background:url("https://hacktams-backend.s3.us-east-2.amazonaws.com/images/faq-box-background-closed.png") no-repeat, rgb(21, 88, 21);
+    */
+    background-size:100% 2.5rem, auto;
+    border-color:transparent;
+    color:white;
+    box-shadow: 0rem 0rem 0.3rem rgb(133, 133, 133);
+}
+
+.question {
+    font-size: 1.3em;
+    text-align: center;
+}

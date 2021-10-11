@@ -1,0 +1,56 @@
+.sponsors {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+    padding: 5rem 15vw;
+    background-color: #171717;
+}
+
+.sponsor {
+    padding-top: 1rem;
+    transition: 0.3s;
+    cursor: pointer;
+    margin: -175px;
+    margin-left: -300px;
+    margin-right: -300px;
+}
+
+.large {
+    transform: scale(0.4);
+}
+
+.medium {
+    transform: scale(0.3);
+}
+
+.small {
+    transform: scale(0.2);
+}
+
+.large:hover {
+    transform: scale(0.5);
+    transition: 0.3s;
+}
+
+.medium:hover {
+    transform: scale(0.4);
+    transition: 0.3s;
+}
+
+.small:hover {
+    transform: scale(0.3);
+    transition: 0.3s;
+}
+
+.large-image {
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+}
+
+.break {
+    flex-basis: 100%;
+    height: 0;
+}

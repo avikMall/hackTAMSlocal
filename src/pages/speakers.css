@@ -1,0 +1,30 @@
+.speakers {
+    padding: 5rem 15vw;
+    background-color: #2e2e2e;
+    text-align: center;
+}
+
+.speakers-container {
+    display: flex;
+}
+
+.speakers-menu {
+    display: flex;
+    flex-direction: row;
+}
+
+.speakers-display {
+    display: flex;
+    flex-direction: row;
+    margin: 3rem;
+    width: 100%;
+    transform: scale(1.2);
+}
+
+.speakers-screen {
+    display: flex;
+    flex-direction: column;
+    margin: 3rem;
+    width: 100%;
+    transform: scale(1.2);
+}

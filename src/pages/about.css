@@ -1,0 +1,105 @@
+.about {
+    background-color: #3a3a3a;
+    text-align: center;
+}
+
+.info {
+    margin-right: 15vw;
+    margin-left: 15vw;
+}
+
+.tracks-container {
+    border: 10px solid #ffffff;
+    box-shadow: 0 0 15px #ffffff;
+    background-color: #303030;
+    margin-bottom: 1rem;
+}
+
+.track-switch-container {
+    display: flex;
+    justify-content: center;
+}
+
+.track-switch {
+    width: 10rem;
+    margin: 1rem;
+    margin-bottom: 0.5rem;
+    border: 0.2rem solid #202020;
+    border-radius: 0.5rem;
+
+    font-weight: 700;
+    font-size: 1.3rem;
+    background-color: #4a4a4a;
+    transition: 0.3s;
+    cursor: pointer;
+
+    flex-direction: row;
+}
+
+.track-switch:hover {
+    box-shadow: 0 0 0.5rem 0.05rem #dddddd;
+    border: 0.2rem solid #303030;
+}
+
+.track {
+    margin: 1rem;
+}
+
+.track.hack.right {
+    display: none;
+}
+
+.track.hack.middle {
+    display: none;
+}
+
+.track.design.left {
+    display: none;
+}
+
+.track.design.right {
+    display: none;
+}
+
+.track.learn.left {
+    display: none;
+}
+
+.track.learn.middle {
+    display: none;
+}
+
+.track.hack.left {
+    display: block;
+}
+
+.track.design.middle {
+    display: block;
+}
+
+.track.learn.right {
+    display: block;
+}
+
+.break {
+    flex-basis: 100%;
+    height: 0;
+}
+
+.top {
+    margin-top: -29px;
+    transform: scale(0.85);
+}
+
+.bottom {
+    transform: scale(0.9);
+    margin-bottom: -1.1rem;
+}
+
+.item {
+    margin: 0 3rem 0 3rem;
+}
+
+#selected{
+    background-color: #202020;
+}

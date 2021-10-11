@@ -1,0 +1,44 @@
+/*Footer stuff*/
+
+.footer {
+    padding: 0 15vw 1rem;
+    background-color: #0f0f0f;
+}
+
+.footer-signs {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding-bottom: 2rem;
+}
+
+.footer-sign {
+    width: 20rem;
+    height: auto;
+    margin-right: 3rem;
+}
+
+.footer-item {
+    width: 4rem;
+    height: auto;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-top: -4px;
+    transform: scale(1.15);
+}
+
+.footer-item:hover {
+    transform: scale(1.30);
+}
+
+.footer-info {
+    margin: 1rem 0;
+    font-size: 1rem;
+    color: white;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: space-evenly;
+}

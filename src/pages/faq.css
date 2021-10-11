@@ -1,0 +1,36 @@
+.faq {
+    /*padding: 5rem 15vw;*/
+    padding: 5rem 2rem;
+    background-color: #212121;
+}
+
+.q_and_a{
+    display:flex;
+    flex-direction:row;
+}
+
+.col-left{
+    margin: 0.5rem;
+    margin-right:5rem;
+    width: 80%
+}
+
+.col-right{
+    margin: 0.5rem;
+    margin-left:5rem;
+    width: 80%
+}
+
+.faq-dropdown-button-container {
+    background-color: lightgray;
+}
+
+.faq-dropdown-section {
+    background-color: rgb(31, 77, 31);
+    color: white;
+}
+
+.closed {
+    height: 0px;
+    background-color: black;
+}
